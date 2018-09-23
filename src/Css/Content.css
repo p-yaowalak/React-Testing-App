@@ -1,0 +1,10 @@
+.info {
+    background: #1CE2D8;
+}
+
+.info-data {
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
