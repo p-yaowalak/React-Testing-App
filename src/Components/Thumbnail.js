@@ -4,9 +4,9 @@ class Thumbnail extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <div class="thumbnail">
+                <div className="thumbnail">
                     <img src="{this.props.img}" alt="..."/>
-                    <div class="caption">
+                    <div className="caption">
                         <h3>{this.props.title}l</h3>
                         <p>{this.props.desc}</p>
                     </div>
