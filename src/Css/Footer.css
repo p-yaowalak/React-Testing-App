@@ -1,4 +1,13 @@
 .footer {
     padding: 80px 0;
-    background: yellow;
+    background: #252525;
+    border-top: 5px solid #3BBCB4;
+}
+
+.footer h5 {
+    color: #898989;
+}
+
+.footer a {
+    color: #8A8E91;
 }

@@ -1,5 +1,5 @@
 .info {
-    background: #1CE2D8;
+    background: #72C2BB;
 }
 
 .info-data {
@@ -9,7 +9,39 @@
     padding: 100px 0;
 }
 
+.info-data>h1 {
+    color: #FDF79E;
+}
+
+.info-data>p {
+    color: #FFF;
+}
+
+
 .news {
     padding: 80px 0;
-    background: red;
+}
+
+.news .article {
+    background-color: white;
+    margin-bottom: 30px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(#000, 0.2);
+}
+
+.news .article .caption {
+    background-color: #FAFAFA;
+    padding: 15px;
+}
+
+.news .article .caption>h4 {
+    color: #6C6C6C;
+}
+
+.news .article .caption>p {
+    color: #A9A9A9;
+}
+
+.news .article img {
+    width: 100%;
 }
