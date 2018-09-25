@@ -4,7 +4,7 @@ class Link extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <p><strong>{this.props.title}</strong></p>
+                <h5><strong>{this.props.title}</strong></h5>
                 <a href="#">{this.props.link}</a>
             </React.Fragment>
         )
